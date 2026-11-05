@@ -1,0 +1,460 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Claude//Trail Blazers Home Games 2026-27//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Trail Blazers Home Games
+X-WR-TIMEZONE:America/Los_Angeles
+X-APPLE-CALENDAR-COLOR:#E03A3E
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:20261021-phoenix-suns@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20261021T190000
+DTEND;TZID=America/Los_Angeles:20261021T213000
+SUMMARY:Blazers vs. Phoenix Suns
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261029-memphis-grizzlies@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20261029T190000
+DTEND;TZID=America/Los_Angeles:20261029T213000
+SUMMARY:Blazers vs. Memphis Grizzlies
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261107-san-antonio-spurs@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20261107T190000
+DTEND;TZID=America/Los_Angeles:20261107T213000
+SUMMARY:Blazers vs. San Antonio Spurs
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261110-oklahoma-city-thunder@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20261110T200000
+DTEND;TZID=America/Los_Angeles:20261110T223000
+SUMMARY:Blazers vs. Oklahoma City Thunder
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:National TV: NBC/Peacock\nRadio: Rip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261111-oklahoma-city-thunder@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20261111T190000
+DTEND;TZID=America/Los_Angeles:20261111T213000
+SUMMARY:Blazers vs. Oklahoma City Thunder
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261125-san-antonio-spurs@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20261125T190000
+DTEND;TZID=America/Los_Angeles:20261125T213000
+SUMMARY:Blazers vs. San Antonio Spurs
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:Emirates NBA Cup group game\nNational TV: ESPN\nRadio: Rip City
+  Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261127-golden-state-warriors@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20261127T183000
+DTEND;TZID=America/Los_Angeles:20261127T210000
+SUMMARY:Blazers vs. Golden State Warriors
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:Emirates NBA Cup group game\nTV: KUNP / Rip City Television Net
+ work\, BlazerVision\nRadio: Rip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261129-new-orleans-pelicans@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20261129T150000
+DTEND;TZID=America/Los_Angeles:20261129T173000
+SUMMARY:Blazers vs. New Orleans Pelicans
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261201-minnesota-timberwolves@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20261201T190000
+DTEND;TZID=America/Los_Angeles:20261201T213000
+SUMMARY:Blazers vs. Minnesota Timberwolves
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261203-utah-jazz@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20261203T190000
+DTEND;TZID=America/Los_Angeles:20261203T213000
+SUMMARY:Blazers vs. Utah Jazz
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261212-atlanta-hawks@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20261212T190000
+DTEND;TZID=America/Los_Angeles:20261212T213000
+SUMMARY:Blazers vs. Atlanta Hawks
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261215-denver-nuggets@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20261215T200000
+DTEND;TZID=America/Los_Angeles:20261215T223000
+SUMMARY:Blazers vs. Denver Nuggets
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:National TV: NBC/Peacock\nRadio: Rip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261229-brooklyn-nets@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20261229T190000
+DTEND;TZID=America/Los_Angeles:20261229T213000
+SUMMARY:Blazers vs. Brooklyn Nets
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270102-boston-celtics@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270102T190000
+DTEND;TZID=America/Los_Angeles:20270102T213000
+SUMMARY:Blazers vs. Boston Celtics
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270104-new-york-knicks@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270104T190000
+DTEND;TZID=America/Los_Angeles:20270104T213000
+SUMMARY:Blazers vs. New York Knicks
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270109-charlotte-hornets@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270109T190000
+DTEND;TZID=America/Los_Angeles:20270109T213000
+SUMMARY:Blazers vs. Charlotte Hornets
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270112-orlando-magic@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270112T190000
+DTEND;TZID=America/Los_Angeles:20270112T213000
+SUMMARY:Blazers vs. Orlando Magic
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270113-los-angeles-lakers@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270113T190000
+DTEND;TZID=America/Los_Angeles:20270113T213000
+SUMMARY:Blazers vs. Los Angeles Lakers
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270115-sacramento-kings@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270115T190000
+DTEND;TZID=America/Los_Angeles:20270115T213000
+SUMMARY:Blazers vs. Sacramento Kings
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270126-washington-wizards@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270126T190000
+DTEND;TZID=America/Los_Angeles:20270126T213000
+SUMMARY:Blazers vs. Washington Wizards
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270127-golden-state-warriors@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270127T190000
+DTEND;TZID=America/Los_Angeles:20270127T213000
+SUMMARY:Blazers vs. Golden State Warriors
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270202-minnesota-timberwolves@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270202T200000
+DTEND;TZID=America/Los_Angeles:20270202T223000
+SUMMARY:Blazers vs. Minnesota Timberwolves
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:National TV: NBC/Peacock\nRadio: Rip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270204-cleveland-cavaliers@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270204T190000
+DTEND;TZID=America/Los_Angeles:20270204T213000
+SUMMARY:Blazers vs. Cleveland Cavaliers
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270213-detroit-pistons@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270213T123000
+DTEND;TZID=America/Los_Angeles:20270213T150000
+SUMMARY:Blazers vs. Detroit Pistons
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270214-chicago-bulls@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270214T123000
+DTEND;TZID=America/Los_Angeles:20270214T150000
+SUMMARY:Blazers vs. Chicago Bulls
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270216-new-orleans-pelicans@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270216T190000
+DTEND;TZID=America/Los_Angeles:20270216T213000
+SUMMARY:Blazers vs. New Orleans Pelicans
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270218-indiana-pacers@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270218T190000
+DTEND;TZID=America/Los_Angeles:20270218T213000
+SUMMARY:Blazers vs. Indiana Pacers
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270226-dallas-mavericks@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270226T190000
+DTEND;TZID=America/Los_Angeles:20270226T213000
+SUMMARY:Blazers vs. Dallas Mavericks
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270302-la-clippers@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270302T200000
+DTEND;TZID=America/Los_Angeles:20270302T223000
+SUMMARY:Blazers vs. LA Clippers
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:National TV: NBC/Peacock\nRadio: Rip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270310-denver-nuggets@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270310T190000
+DTEND;TZID=America/Los_Angeles:20270310T213000
+SUMMARY:Blazers vs. Denver Nuggets
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270313-la-clippers@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270313T193000
+DTEND;TZID=America/Los_Angeles:20270313T220000
+SUMMARY:Blazers vs. LA Clippers
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:National TV: ESPN\nRadio: Rip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270316-los-angeles-lakers@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270316T190000
+DTEND;TZID=America/Los_Angeles:20270316T213000
+SUMMARY:Blazers vs. Los Angeles Lakers
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270317-miami-heat@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270317T190000
+DTEND;TZID=America/Los_Angeles:20270317T213000
+SUMMARY:Blazers vs. Miami Heat
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270323-toronto-raptors@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270323T190000
+DTEND;TZID=America/Los_Angeles:20270323T213000
+SUMMARY:Blazers vs. Toronto Raptors
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270326-philadelphia-76ers@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270326T190000
+DTEND;TZID=America/Los_Angeles:20270326T213000
+SUMMARY:Blazers vs. Philadelphia 76ers
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270327-milwaukee-bucks@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270327T190000
+DTEND;TZID=America/Los_Angeles:20270327T213000
+SUMMARY:Blazers vs. Milwaukee Bucks
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270330-houston-rockets@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270330T200000
+DTEND;TZID=America/Los_Angeles:20270330T223000
+SUMMARY:Blazers vs. Houston Rockets
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:National TV: NBC/Peacock\nRadio: Rip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270331-houston-rockets@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270331T190000
+DTEND;TZID=America/Los_Angeles:20270331T213000
+SUMMARY:Blazers vs. Houston Rockets
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270402-utah-jazz@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270402T190000
+DTEND;TZID=America/Los_Angeles:20270402T213000
+SUMMARY:Blazers vs. Utah Jazz
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270407-dallas-mavericks@blazers-home-2026-27
+DTSTAMP:20261105T013000Z
+DTSTART;TZID=America/Los_Angeles:20270407T190000
+DTEND;TZID=America/Los_Angeles:20270407T213000
+SUMMARY:Blazers vs. Dallas Mavericks
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+DESCRIPTION:TV: KUNP / Rip City Television Network\, BlazerVision\nRadio: R
+ ip City Radio 620 AM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
