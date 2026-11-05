@@ -3,7 +3,7 @@ import re
 from datetime import date, datetime, timedelta
 
 OUT = "Portland-Holiday-Events-2026.ics"
-DTSTAMP = "20261105T020000Z"
+DTSTAMP = "20261105T132250Z"
 
 MODA = "Moda Center, 1 N Center Ct St, Portland, OR 97227"
 ALADDIN = "Aladdin Theater, 3017 SE Milwaukie Ave, Portland, OR 97202"
@@ -35,6 +35,20 @@ S_TC = "https://thechristmas.com/blogs/events/portland-christmas-lights"
 S_LIGHTS = "https://portland-christmas-lights.pages.dev/events"
 S_AC_POPS = "https://www.allclassical.org/?p=111029"
 S_AC_GOSPEL = "https://www.allclassical.org/?p=111028"
+S_ORS_GOSPEL = "https://orsymphony.org/productions/2627/gospel-christmas-2026/"
+S_ORS_POPS = "https://www.orsymphony.org/productions/2627/holiday-pops-spectacular"
+S_ORS_BRASS = "https://orsymphony.org/productions/2627/holiday-brass"
+S_ORS_HOME = "https://www.orsymphony.org/productions/2627/home-alone-in-concert"
+S_ORS_NINTH = "https://www.orsymphony.org/productions/2627/new-years-eve-with-beethovens-ninth"
+S_ZOO_LIGHTS = "https://www.oregonzoo.org/lights"
+S_ZOO_BREW = "https://www.oregonzoo.org/brewlights"
+S_ORHF = "https://orhf.org/holiday-express/"
+S_GROTTO = "https://thegrotto.org/christmas-festival-of-lights/"
+S_TUBA = "https://www.thesquarepdx.org/event/35th-annual-tuba-christmas-concert/"
+S_PITTOCK = "https://pittockmansion.org/exhibits/"
+S_OBT_TEMPLE = "https://www.oregonbuddhisttemple.com/craft-fair"
+S_FOODGIFT = "https://pdxparent.com/pdx-holiday-fun/"
+S_FOODGIFT2 = "https://www.thecraftmap.com/fair/37th-annual-holiday-food-gift-festival-nov-13th-15th-hillsboro-or"
 
 
 def eo(slug):
@@ -51,20 +65,24 @@ E = [
     ("2026-11-08", "Sun", "20:00", None, "Derek Hough: Dance for the Holidays", SCHNITZ, "", eo("derek-hough-dance-for-the-holidays/e249490")),
     ("2026-11-10", "Tue", "09:00", "10:30", "Stimson Lumber Tree Arrival", SQUARE, "Free. The city's tree arrives at the Square.", S_WW),
     ("2026-11-12", "Thu", "19:30", None, "Jim Brickman", "Patricia Reser Center for the Arts, 12625 SW Crescent St, Beaverton, OR 97005", "", eo("jim-brickman-piano-sensation/e260328")),
-    ("2026-11-13", "Fri", "17:30", "21:30", "BrewLights (21+)", ZOO, "General entry 5:30 PM, early entry 4:30 PM.", S_STAY),
-    ("2026-11-14", "Sat", "17:30", "21:30", "BrewLights (21+)", ZOO, "General entry 5:30 PM, early entry 4:30 PM.", S_STAY),
-    ("2026-11-16", "Mon", None, None, "ZooLights Sensory Friendly Night", ZOO, NO_TIME, S_KOA),
+    ("2026-11-13", "Fri", "17:30", "21:30", "BrewLights (21+)", ZOO, "General entry 5:30 PM, early entry 4:30 PM. Taps close 9 PM.", S_ZOO_BREW),
+    ("2026-11-14", "Sat", "17:30", "21:30", "BrewLights (21+)", ZOO, "General entry 5:30 PM, early entry 4:30 PM. Taps close 9 PM.", S_ZOO_BREW),
+    ("2026-11-13", "Fri", "11:00", "18:00", "Holiday Food & Gift Festival", "Westside Commons, 801 NE 34th Ave, Hillsboro, OR", "37th annual, Nov 13-15 at a new location. Hours are listed for Nov 13 only, so check Saturday and Sunday hours. Venue from The Craft Map: " + S_FOODGIFT2, S_FOODGIFT),
+    ("2026-11-14", "Sat", "09:00", "15:00", "Oregon Buddhist Temple Holiday Craft Fair", "Oregon Buddhist Temple, 3720 SE 34th Ave, Portland, OR 97202", "11th annual. Free entry.", S_OBT_TEMPLE),
+    ("2026-11-15", "Sun", None, None, "ZooLights Member Preview Night", ZOO, "Oregon Zoo members. " + NO_TIME, S_ZOO_LIGHTS),
+    ("2026-11-16", "Mon", None, None, "Pittock Mansion: Home for the Holidays opens", "Pittock Mansion, 3229 NW Pittock Dr, Portland, OR 97210", "Holidays from Around the World, through Jan 10, 2027. Closed Thanksgiving, Christmas Day and New Year's Day. " + NO_TIME, S_PITTOCK),
+    ("2026-11-16", "Mon", None, None, "ZooLights Sensory Friendly Night", ZOO, NO_TIME, S_ZOO_LIGHTS),
     ("2026-11-20", "Fri", "10:00", "18:00", "Plucky Maidens Holiday Fest", "Oaks Park Dance Pavilion, 7805 SE Oaks Park Way, Portland, OR 97202", "Free.", eo("plucky-maidens-holiday-fest/e262024")),
     ("2026-11-21", "Sat", "10:00", "18:00", "Plucky Maidens Holiday Fest", "Oaks Park Dance Pavilion, 7805 SE Oaks Park Way, Portland, OR 97202", "Free.", eo("plucky-maidens-holiday-fest/e262024")),
-    ("2026-11-20", "Fri", "16:30", "21:00", "ZooLights opens", ZOO, "Runs through Jan 3, 2027, from 4:30 PM. Closed Nov 24-26 and Dec 25. Closing time varies. Jan 1-2 are listed as 21+.", S_ZOO),
+    ("2026-11-20", "Fri", "16:30", "20:30", "ZooLights opens", ZOO, "Runs through Jan 3, 2027, from 4:30 PM. Closed Nov 24-26 and Dec 25. Closing time varies by night. Jan 1-2 are 21+.", S_ZOO_LIGHTS),
     ("2026-11-20", "Fri", "17:00", "21:00", "Silverton Christmas Market opens", "Oregon Garden, 879 W Main St, Silverton, OR 97381", "Most nights through Dec 31, 5-9 PM. Popular nights sell out, so check open dates when booking.", eo("silverton-christmas-market/e261641")),
     ("2026-11-20", "Fri", None, None, "'Twas the Night Before Nutcracker opens (21+)", "Can Can's Paris Theatre, 6 SW 3rd Ave, Portland, OR 97204", "Runs on select dates through Jan 3, 2027. " + NO_TIME, eo("can-cans-twas-the-night-before-nutcracker/e261638")),
     ("2026-11-27", "Fri", "16:00", "17:00", "Christmas Ships: Vancouver Santa Escort", "Grant Street Pier, Vancouver, WA", "Combined fleet to Vancouver Waterfront. Schedule can change for weather or safety.", S_SHIPS),
     ("2026-11-27", "Fri", "16:30", "23:00", "Winter Wonderland opens", PIR, "Drive-through nightly through Dec 31. Mon-Thu 5-10 PM, Fri-Sun 4:30-11 PM, Dec 18-25 4:30-11 PM. No drive-through Nov 29-Dec 1.", S_STAY),
-    ("2026-11-27", "Fri", "17:00", "21:30", "Grotto Christmas Festival of Lights opens", "The Grotto, 8840 NE Skidmore St, Portland, OR 97220", "Select dates through Dec 30. Start time comes from a secondary listing and is not confirmed by The Grotto, so check hours and open dates.", S_LIGHTS),
+    ("2026-11-27", "Fri", "17:00", "21:30", "Grotto Christmas Festival of Lights opens", "The Grotto, 8840 NE Skidmore St, Portland, OR 97220", "Nightly 5-9:30 PM through Dec 30, closed Dec 25. Grounds close at 10 PM. Entrance at NE 85th and Sandy Blvd.", S_GROTTO),
     ("2026-11-27", "Fri", "17:30", "18:45", "42nd Annual Tree Lighting Ceremony", SQUARE, "Community sing-along with Santa.", S_STAY),
     ("2026-11-27", "Fri", "20:00", None, "The Storm Large Holiday Ordeal (Night 1)", ALADDIN, "", eo("the-storm-large-holiday-ordeal/e258693")),
-    ("2026-11-27", "Fri", None, None, "Holiday Express steam train begins", "Oregon Rail Heritage Center, 2250 SE Water Ave, Portland, OR 97214", "Weekends through Dec 27, plus Dec 21-23. Departure times are not published in the sources. Arrive 20 minutes early. " + NO_TIME, S_STAY2),
+    ("2026-11-27", "Fri", "10:00", None, "Holiday Express steam train begins", "Oregon Rail Heritage Center, 2250 SE Water Ave, Portland, OR 97214", "Fri-Sun through Dec 27, plus Dec 21-23. No trains Dec 24-25. Departures at 10, 11:30, 1, 2:30, 4, 5:30 and 7, but not every departure runs every day, so check the schedule. Arrive 20 minutes early.", S_ORHF),
     ("2026-11-27", "Fri", None, None, "A Christmas Celebration: Portland Choir & Orchestra", NEWMARK, "With Nathan Pacheco. Multiple shows Nov 27-28. " + NO_TIME, eo("a-christmas-celebration-portland-choir-orchestra-with-nathan-pacheco/e257195")),
     ("2026-11-28", "Sat", "13:00", "19:00", "Inaugural Holiday Bazaar Brewfest (21+)", "Crystal Ballroom, 1332 W Burnside St, Portland, OR 97209", "", eo("inaugural-holiday-bazaar-brewfest/e256356")),
     ("2026-11-28", "Sat", "15:30", None, "Trans-Siberian Orchestra (matinee)", MODA, "The Ghosts of Christmas Eve.", eo("trans-siberian-orchestra-the-ghosts-of-christmas-eve/e255450")),
@@ -86,7 +104,7 @@ E = [
     ("2026-12-05", "Sat", "20:00", None, "Matt Rogers: This Time It's Really Christmas", ALADDIN, "", eo("matt-rogers-this-time-its-really-christmas-tour/e255433")),
     ("2026-12-05", "Sat", None, None, "Portland Bazaar opens", BAZAAR, "Dec 5-6, 12-13, 19-20. Preview hour at 10 AM on Dec 5. " + NO_TIME, S_STAY2),
     ("2026-12-05", "Sat", None, None, "Breakfast With Santa at Edgefield", "McMenamins Edgefield, 2126 SW Halsey St, Troutdale, OR 97060", "Also Dec 6. " + NO_TIME, eo("breakfast-with-santa/e260146")),
-    ("2026-12-05", "Sat", None, None, "Gospel Christmas (Oregon Symphony)", SCHNITZ, NO_TIME + " A Dec 6 show at 4 PM is also on this calendar.", eo("gospel-christmas/e237915")),
+    ("2026-12-05", "Sat", "19:30", None, "Gospel Christmas (Oregon Symphony)", SCHNITZ, "Oregon Symphony lists 7:30 PM. A ticket reseller lists 7 PM. Also Dec 6 at 4 PM.", S_ORS_GOSPEL),
     ("2026-12-06", "Sun", "16:00", None, "Gospel Christmas (Oregon Symphony)", SCHNITZ, "", S_AC_GOSPEL),
     ("2026-12-06", "Sun", "20:00", None, "Choir! Choir! Choir! Un-SILENT NIGHT sing-along", REVHALL, "", eo("choir-choir-choir-un-silent-night-an-epic-holiday-sing-along/e239560")),
     ("2026-12-08", "Tue", "19:00", None, "In the Christmas Mood: Glenn Miller Orchestra", NEWMARK, "", eo("in-the-christmas-mood-with-the-glenn-miller-orchestra/e234172")),
@@ -98,21 +116,27 @@ E = [
     ("2026-12-11", "Fri", None, None, "Portland Gay Men's Chorus: Cool Yule opens", NEWMARK, "EverOut lists multiple dates from Dec 11. " + NO_TIME, eo("portland-gay-mens-chorus-presents-cool-yule/e259430")),
     ("2026-12-12", "Sat", "10:00", "17:00", "Crafty Wonderland Holiday Market", OCC, "Timed entry. Venue is cashless.", S_OCC),
     ("2026-12-12", "Sat", "12:00", "22:00", "Portland Holiday Brew Fest (21+)", SQUARE, "Taps close 9:30 PM.", S_STAY),
-    ("2026-12-12", "Sat", "14:00", None, "Holiday Pops Spectacular (Oregon Symphony)", SCHNITZ, "Other shows may be scheduled Dec 12-13.", S_AC_POPS),
+    ("2026-12-12", "Sat", "14:00", None, "Holiday Pops Spectacular (Oregon Symphony)", SCHNITZ, "Also Dec 12 at 7:30 PM and Dec 13 at 2 PM.", S_ORS_POPS),
+    ("2026-12-12", "Sat", "19:30", None, "Holiday Pops Spectacular (Oregon Symphony)", SCHNITZ, "", S_ORS_POPS),
     ("2026-12-12", "Sat", "18:00", "20:00", "Christmas on the Campground", "5414 SE Duke St, Portland, OR 97206", "Live Nativity at 6 and 7 PM.", S_TC),
     ("2026-12-12", "Sat", None, None, "ScanFair Nordic Christmas Market", "Nordic Northwest, Portland, OR", NO_TIME, S_KOA),
     ("2026-12-13", "Sun", "10:00", "17:00", "Crafty Wonderland Holiday Market", OCC, "Timed entry. Venue is cashless.", S_OCC),
     ("2026-12-13", "Sun", "18:00", "20:00", "Christmas on the Campground", "5414 SE Duke St, Portland, OR 97206", "Live Nativity at 6 and 7 PM.", S_TC),
-    ("2026-12-13", "Sun", None, None, "Holiday Pops Spectacular (Oregon Symphony)", SCHNITZ, NO_TIME, eo("holiday-pops-spectacular/e237916")),
+    ("2026-12-13", "Sun", "14:00", None, "Holiday Pops Spectacular (Oregon Symphony)", SCHNITZ, "", S_ORS_POPS),
     ("2026-12-13", "Sun", None, None, "ScanFair Nordic Christmas Market", "Nordic Northwest, Portland, OR", NO_TIME, S_KOA),
     ("2026-12-15", "Tue", "18:00", "22:00", "Peacock Lane opens (pedestrian-only)", "SE Peacock Ln, between SE Stark and SE Belmont, Portland, OR 97214", "Lights Dec 15-31, 6-10 PM. One banner on the official site says 11 PM. Pedestrian-only Dec 15 and 16.", S_PEACOCK),
     ("2026-12-15", "Tue", "20:00", None, "JD McPherson: SOCKS Rock N' Roll Christmas", ALADDIN, "", eo("jd-mcpherson-socks-a-rock-n-roll-christmas-tour/e256196")),
     ("2026-12-16", "Wed", "18:00", "22:00", "Peacock Lane (pedestrian-only)", "SE Peacock Ln, between SE Stark and SE Belmont, Portland, OR 97214", "", S_PEACOCK),
     ("2026-12-17", "Thu", "19:30", None, "The Jinkx & DeLa Holiday Show", SCHNITZ, "", eo("the-jinkx-dela-holiday-show/e247954")),
-    ("2026-12-17", "Thu", "19:30", None, "Holiday Brass", SCHNITZ, "EverOut lists this and the Jinkx & DeLa show at the same hall and time, so confirm before buying.", eo("holiday-brass/e237913")),
+    ("2026-12-17", "Thu", "19:30", None, "Holiday Brass (Oregon Symphony)", "Rose Auditorium, South Salem High School, Salem, OR", "In Salem, per the Oregon Symphony. EverOut listed the Schnitzer in Portland.", S_ORS_BRASS),
     ("2026-12-18", "Fri", "16:00", "23:00", "Portland Night Market (Dec 18-19)", "100 SE Alder St, Portland, OR", "Listed as 4-11 PM. Hours can differ by day.", S_STAY2),
     ("2026-12-19", "Sat", "19:30", None, "Snow Bar Chorale", REVHALL, "", eo("snow-bar-chorale/e250926")),
     ("2026-12-19", "Sat", None, None, "Portland Saturday Market final day of 2026", "Portland Saturday Market, 2 SW Naito Pkwy, Portland, OR", NO_TIME, S_STAY),
+    ("2026-12-19", "Sat", "13:30", "15:00", "35th Annual Tuba Christmas Concert", SQUARE, "Free.", S_TUBA),
+    ("2026-12-19", "Sat", "19:30", None, "Home Alone in Concert (Oregon Symphony)", SCHNITZ, "Film with the score played live. Also Dec 20 at 2 PM.", S_ORS_HOME),
+    ("2026-12-20", "Sun", "14:00", None, "Home Alone in Concert (Oregon Symphony)", SCHNITZ, "Film with the score played live.", S_ORS_HOME),
+    ("2026-12-30", "Wed", "19:30", None, "New Year's Eve with Beethoven's Ninth (Oregon Symphony)", SCHNITZ, "Also Dec 31 at 7:30 PM.", S_ORS_NINTH),
+    ("2026-12-31", "Thu", "19:30", None, "New Year's Eve with Beethoven's Ninth (Oregon Symphony)", SCHNITZ, "", S_ORS_NINTH),
     ("2026-12-30", "Wed", "19:30", None, "A Magical Cirque Christmas", KELLER, "", eo("a-magical-cirque-christmas/e249545")),
 ]
 

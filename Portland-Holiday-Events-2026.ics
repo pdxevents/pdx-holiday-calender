@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:2026-11-06-10-00-portland-holiday-market@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261106T100000
 DTEND;TZID=America/Los_Angeles:20261106T190000
 SUMMARY:Portland Holiday Market
@@ -37,7 +37,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-07-10-00-portland-holiday-market@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261107T100000
 DTEND;TZID=America/Los_Angeles:20261107T190000
 SUMMARY:Portland Holiday Market
@@ -49,7 +49,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-08-10-00-portland-holiday-market@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261108T100000
 DTEND;TZID=America/Los_Angeles:20261108T180000
 SUMMARY:Portland Holiday Market
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-08-20-00-derek-hough-dance-for-the-holidays@portland-holiday-20
  26
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261108T200000
 DTEND;TZID=America/Los_Angeles:20261108T220000
 SUMMARY:Derek Hough: Dance for the Holidays
@@ -75,7 +75,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-10-09-00-stimson-lumber-tree-arrival@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261110T090000
 DTEND;TZID=America/Los_Angeles:20261110T103000
 SUMMARY:Stimson Lumber Tree Arrival
@@ -89,7 +89,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-12-19-30-jim-brickman@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261112T193000
 DTEND;TZID=America/Los_Angeles:20261112T213000
 SUMMARY:Jim Brickman
@@ -102,48 +102,102 @@ URL:https://everout.com/portland/events/jim-brickman-piano-sensation/e26032
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-13-11-00-holiday-food-gift-festival@portland-holiday-2026
+DTSTAMP:20261105T132250Z
+DTSTART;TZID=America/Los_Angeles:20261113T110000
+DTEND;TZID=America/Los_Angeles:20261113T180000
+SUMMARY:Holiday Food & Gift Festival
+LOCATION:Westside Commons\, 801 NE 34th Ave\, Hillsboro\, OR
+DESCRIPTION:37th annual\, Nov 13-15 at a new location. Hours are listed for
+  Nov 13 only\, so check Saturday and Sunday hours. Venue from The Craft Ma
+ p: https://www.thecraftmap.com/fair/37th-annual-holiday-food-gift-festival
+ -nov-13th-15th-hillsboro-or\nSource: https://pdxparent.com/pdx-holiday-fun
+ /
+URL:https://pdxparent.com/pdx-holiday-fun/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-13-17-30-brewlights-21@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261113T173000
 DTEND;TZID=America/Los_Angeles:20261113T213000
 SUMMARY:BrewLights (21+)
 LOCATION:Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221
-DESCRIPTION:General entry 5:30 PM\, early entry 4:30 PM.\nSource: https://w
- ww.stayportland.com/guide/portland-fall-winter-holidays
-URL:https://www.stayportland.com/guide/portland-fall-winter-holidays
+DESCRIPTION:General entry 5:30 PM\, early entry 4:30 PM. Taps close 9 PM.\n
+ Source: https://www.oregonzoo.org/brewlights
+URL:https://www.oregonzoo.org/brewlights
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-14-09-00-oregon-buddhist-temple-holiday-craft-fair@portland-hol
+ iday-2026
+DTSTAMP:20261105T132250Z
+DTSTART;TZID=America/Los_Angeles:20261114T090000
+DTEND;TZID=America/Los_Angeles:20261114T150000
+SUMMARY:Oregon Buddhist Temple Holiday Craft Fair
+LOCATION:Oregon Buddhist Temple\, 3720 SE 34th Ave\, Portland\, OR 97202
+DESCRIPTION:11th annual. Free entry.\nSource: https://www.oregonbuddhisttem
+ ple.com/craft-fair
+URL:https://www.oregonbuddhisttemple.com/craft-fair
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-14-17-30-brewlights-21@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261114T173000
 DTEND;TZID=America/Los_Angeles:20261114T213000
 SUMMARY:BrewLights (21+)
 LOCATION:Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221
-DESCRIPTION:General entry 5:30 PM\, early entry 4:30 PM.\nSource: https://w
- ww.stayportland.com/guide/portland-fall-winter-holidays
-URL:https://www.stayportland.com/guide/portland-fall-winter-holidays
+DESCRIPTION:General entry 5:30 PM\, early entry 4:30 PM. Taps close 9 PM.\n
+ Source: https://www.oregonzoo.org/brewlights
+URL:https://www.oregonzoo.org/brewlights
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-allday-zoolights-member-preview-night@portland-holiday-2026
+DTSTAMP:20261105T132250Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:ZooLights Member Preview Night
+LOCATION:Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221
+DESCRIPTION:Oregon Zoo members. Time not listed in the sources\, so this is
+  an all-day entry. Check before going.\nSource: https://www.oregonzoo.org/
+ lights
+URL:https://www.oregonzoo.org/lights
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-16-allday-pittock-mansion-home-for-the-holidays-opens@portland-
+ holiday-2026
+DTSTAMP:20261105T132250Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Pittock Mansion: Home for the Holidays opens
+LOCATION:Pittock Mansion\, 3229 NW Pittock Dr\, Portland\, OR 97210
+DESCRIPTION:Holidays from Around the World\, through Jan 10\, 2027. Closed 
+ Thanksgiving\, Christmas Day and New Year's Day. Time not listed in the so
+ urces\, so this is an all-day entry. Check before going.\nSource: https://
+ pittockmansion.org/exhibits/
+URL:https://pittockmansion.org/exhibits/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-16-allday-zoolights-sensory-friendly-night@portland-holiday-202
  6
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:ZooLights Sensory Friendly Night
 LOCATION:Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221
 DESCRIPTION:Time not listed in the sources\, so this is an all-day entry. C
- heck before going.\nSource: https://portland.kidsoutandabout.com/content/1
- 01-ideas-holiday-family-fun-portland
-URL:https://portland.kidsoutandabout.com/content/101-ideas-holiday-family-f
- un-portland
+ heck before going.\nSource: https://www.oregonzoo.org/lights
+URL:https://www.oregonzoo.org/lights
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-allday-twas-the-night-before-nutcracker-opens-21@portland-ho
  liday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:'Twas the Night Before Nutcracker opens (21+)
@@ -158,7 +212,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-10-00-plucky-maidens-holiday-fest@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261120T100000
 DTEND;TZID=America/Los_Angeles:20261120T180000
 SUMMARY:Plucky Maidens Holiday Fest
@@ -172,20 +226,20 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-16-30-zoolights-opens@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261120T163000
-DTEND;TZID=America/Los_Angeles:20261120T210000
+DTEND;TZID=America/Los_Angeles:20261120T203000
 SUMMARY:ZooLights opens
 LOCATION:Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221
 DESCRIPTION:Runs through Jan 3\, 2027\, from 4:30 PM. Closed Nov 24-26 and 
- Dec 25. Closing time varies. Jan 1-2 are listed as 21+.\nSource: https://t
- hrillzing.com/seasonal-events/zoolights-2026-oregon-zoo/
-URL:https://thrillzing.com/seasonal-events/zoolights-2026-oregon-zoo/
+ Dec 25. Closing time varies by night. Jan 1-2 are 21+.\nSource: https://ww
+ w.oregonzoo.org/lights
+URL:https://www.oregonzoo.org/lights
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-17-00-silverton-christmas-market-opens@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261120T170000
 DTEND;TZID=America/Los_Angeles:20261120T210000
 SUMMARY:Silverton Christmas Market opens
@@ -198,7 +252,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-10-00-plucky-maidens-holiday-fest@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261121T100000
 DTEND;TZID=America/Los_Angeles:20261121T180000
 SUMMARY:Plucky Maidens Holiday Fest
@@ -213,7 +267,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-allday-a-christmas-celebration-portland-choir-orchestra@port
  land-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:A Christmas Celebration: Portland Choir & Orchestra
@@ -227,25 +281,25 @@ URL:https://everout.com/portland/events/a-christmas-celebration-portland-ch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-27-allday-holiday-express-steam-train-begins@portland-holiday-2
- 026
-DTSTAMP:20261105T020000Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
+UID:2026-11-27-10-00-holiday-express-steam-train-begins@portland-holiday-20
+ 26
+DTSTAMP:20261105T132250Z
+DTSTART;TZID=America/Los_Angeles:20261127T100000
+DTEND;TZID=America/Los_Angeles:20261127T120000
 SUMMARY:Holiday Express steam train begins
 LOCATION:Oregon Rail Heritage Center\, 2250 SE Water Ave\, Portland\, OR 97
  214
-DESCRIPTION:Weekends through Dec 27\, plus Dec 21-23. Departure times are n
- ot published in the sources. Arrive 20 minutes early. Time not listed in t
- he sources\, so this is an all-day entry. Check before going.\nSource: htt
- ps://www.stayportland.com/guide/portland-events-festivals
-URL:https://www.stayportland.com/guide/portland-events-festivals
+DESCRIPTION:Fri-Sun through Dec 27\, plus Dec 21-23. No trains Dec 24-25. D
+ epartures at 10\, 11:30\, 1\, 2:30\, 4\, 5:30 and 7\, but not every depart
+ ure runs every day\, so check the schedule. Arrive 20 minutes early.\nSour
+ ce: https://orhf.org/holiday-express/
+URL:https://orhf.org/holiday-express/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-16-00-christmas-ships-vancouver-santa-escort@portland-holida
  y-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261127T160000
 DTEND;TZID=America/Los_Angeles:20261127T170000
 SUMMARY:Christmas Ships: Vancouver Santa Escort
@@ -258,7 +312,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-16-30-winter-wonderland-opens@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261127T163000
 DTEND;TZID=America/Los_Angeles:20261127T230000
 SUMMARY:Winter Wonderland opens
@@ -273,21 +327,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-17-00-grotto-christmas-festival-of-lights-opens@portland-hol
  iday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261127T170000
 DTEND;TZID=America/Los_Angeles:20261127T213000
 SUMMARY:Grotto Christmas Festival of Lights opens
 LOCATION:The Grotto\, 8840 NE Skidmore St\, Portland\, OR 97220
-DESCRIPTION:Select dates through Dec 30. Start time comes from a secondary 
- listing and is not confirmed by The Grotto\, so check hours and open dates
- .\nSource: https://portland-christmas-lights.pages.dev/events
-URL:https://portland-christmas-lights.pages.dev/events
+DESCRIPTION:Nightly 5-9:30 PM through Dec 30\, closed Dec 25. Grounds close
+  at 10 PM. Entrance at NE 85th and Sandy Blvd.\nSource: https://thegrotto.
+ org/christmas-festival-of-lights/
+URL:https://thegrotto.org/christmas-festival-of-lights/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-17-30-42nd-annual-tree-lighting-ceremony@portland-holiday-20
  26
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261127T173000
 DTEND;TZID=America/Los_Angeles:20261127T184500
 SUMMARY:42nd Annual Tree Lighting Ceremony
@@ -300,7 +354,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-20-00-the-storm-large-holiday-ordeal-night-1@portland-holida
  y-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261127T200000
 DTEND;TZID=America/Los_Angeles:20261127T220000
 SUMMARY:The Storm Large Holiday Ordeal (Night 1)
@@ -313,7 +367,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-allday-black-nativity-opens@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Black Nativity opens
@@ -327,7 +381,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-allday-scandinavian-christmas-goat-market@portland-holiday-2
  026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Scandinavian Christmas Goat Market
@@ -342,7 +396,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-13-00-inaugural-holiday-bazaar-brewfest-21@portland-holiday-
  2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261128T130000
 DTEND;TZID=America/Los_Angeles:20261128T190000
 SUMMARY:Inaugural Holiday Bazaar Brewfest (21+)
@@ -355,7 +409,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-15-30-trans-siberian-orchestra-matinee@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261128T153000
 DTEND;TZID=America/Los_Angeles:20261128T173000
 SUMMARY:Trans-Siberian Orchestra (matinee)
@@ -369,7 +423,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-20-00-the-storm-large-holiday-ordeal-night-2@portland-holida
  y-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261128T200000
 DTEND;TZID=America/Los_Angeles:20261128T220000
 SUMMARY:The Storm Large Holiday Ordeal (Night 2)
@@ -382,7 +436,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-20-00-trans-siberian-orchestra-evening@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261128T200000
 DTEND;TZID=America/Los_Angeles:20261128T220000
 SUMMARY:Trans-Siberian Orchestra (evening)
@@ -396,7 +450,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-29-16-15-bike-the-lights-at-winter-wonderland@portland-holiday-
  2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261129T161500
 DTEND;TZID=America/Los_Angeles:20261129T213000
 SUMMARY:Bike the Lights at Winter Wonderland
@@ -410,7 +464,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-30-16-15-lights-leashes-at-winter-wonderland@portland-holiday-2
  026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261130T161500
 DTEND;TZID=America/Los_Angeles:20261130T213000
 SUMMARY:Lights & Leashes at Winter Wonderland
@@ -424,7 +478,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-30-19-00-jake-shimabukuro-holidays-in-hawai-i@portland-holiday-
  2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261130T190000
 DTEND;TZID=America/Los_Angeles:20261130T210000
 SUMMARY:Jake Shimabukuro: Holidays in Hawai'i
@@ -438,7 +492,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-01-16-15-lights-leashes-at-winter-wonderland@portland-holiday-2
  026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261201T161500
 DTEND;TZID=America/Los_Angeles:20261201T213000
 SUMMARY:Lights & Leashes at Winter Wonderland
@@ -451,7 +505,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-01-20-00-a-john-waters-christmas@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261201T200000
 DTEND;TZID=America/Los_Angeles:20261201T220000
 SUMMARY:A John Waters Christmas
@@ -463,7 +517,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-03-16-00-portland-night-market-dec-3-6@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261203T160000
 DTEND;TZID=America/Los_Angeles:20261203T230000
 SUMMARY:Portland Night Market (Dec 3-6)
@@ -475,7 +529,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-03-19-00-christmas-ships-parade@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261203T190000
 DTEND;TZID=America/Los_Angeles:20261203T210000
 SUMMARY:Christmas Ships Parade
@@ -488,7 +542,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-04-allday-not-cracker-opens@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:NOT-Cracker opens
@@ -502,7 +556,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-04-16-00-beaverton-winter-lights-tree-lighting@portland-holiday
  -2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261204T160000
 DTEND;TZID=America/Los_Angeles:20261204T200000
 SUMMARY:Beaverton Winter Lights & Tree Lighting
@@ -514,7 +568,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-04-17-00-multnomah-village-holiday-gala@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261204T170000
 DTEND;TZID=America/Los_Angeles:20261204T200000
 SUMMARY:Multnomah Village Holiday Gala
@@ -526,7 +580,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-04-19-00-christmas-ships-parade@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261204T190000
 DTEND;TZID=America/Los_Angeles:20261204T210000
 SUMMARY:Christmas Ships Parade
@@ -540,7 +594,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-05-allday-breakfast-with-santa-at-edgefield@portland-holiday-20
  26
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Breakfast With Santa at Edgefield
@@ -552,22 +606,8 @@ URL:https://everout.com/portland/events/breakfast-with-santa/e260146/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-12-05-allday-gospel-christmas-oregon-symphony@portland-holiday-202
- 6
-DTSTAMP:20261105T020000Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:Gospel Christmas (Oregon Symphony)
-LOCATION:Arlene Schnitzer Concert Hall\, 1037 SW Broadway\, Portland\, OR
-DESCRIPTION:Time not listed in the sources\, so this is an all-day entry. C
- heck before going. A Dec 6 show at 4 PM is also on this calendar.\nSource:
-  https://everout.com/portland/events/gospel-christmas/e237915/
-URL:https://everout.com/portland/events/gospel-christmas/e237915/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-12-05-allday-portland-bazaar-opens@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Portland Bazaar opens
@@ -581,7 +621,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-05-14-00-the-nutcracker-opens-oregon-ballet-theatre@portland-ho
  liday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261205T140000
 DTEND;TZID=America/Los_Angeles:20261205T160000
 SUMMARY:The Nutcracker opens (Oregon Ballet Theatre)
@@ -595,7 +635,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-05-18-00-christmas-ships-parade@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261205T180000
 DTEND;TZID=America/Los_Angeles:20261205T203000
 SUMMARY:Christmas Ships Parade
@@ -607,9 +647,22 @@ URL:https://www.christmasships.org/parade-schedule
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-12-05-19-30-gospel-christmas-oregon-symphony@portland-holiday-2026
+DTSTAMP:20261105T132250Z
+DTSTART;TZID=America/Los_Angeles:20261205T193000
+DTEND;TZID=America/Los_Angeles:20261205T213000
+SUMMARY:Gospel Christmas (Oregon Symphony)
+LOCATION:Arlene Schnitzer Concert Hall\, 1037 SW Broadway\, Portland\, OR
+DESCRIPTION:Oregon Symphony lists 7:30 PM. A ticket reseller lists 7 PM. Al
+ so Dec 6 at 4 PM.\nSource: https://orsymphony.org/productions/2627/gospel-
+ christmas-2026/
+URL:https://orsymphony.org/productions/2627/gospel-christmas-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-05-20-00-matt-rogers-this-time-it-s-really-christmas@portland-h
  oliday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261205T200000
 DTEND;TZID=America/Los_Angeles:20261205T220000
 SUMMARY:Matt Rogers: This Time It's Really Christmas
@@ -622,7 +675,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-06-16-00-gospel-christmas-oregon-symphony@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261206T160000
 DTEND;TZID=America/Los_Angeles:20261206T180000
 SUMMARY:Gospel Christmas (Oregon Symphony)
@@ -634,7 +687,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-06-20-00-choir-choir-choir-un-silent-night-sing-along@portland-
  holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261206T200000
 DTEND;TZID=America/Los_Angeles:20261206T220000
 SUMMARY:Choir! Choir! Choir! Un-SILENT NIGHT sing-along
@@ -647,7 +700,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-07-19-00-christmas-ships-parade@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261207T190000
 DTEND;TZID=America/Los_Angeles:20261207T210000
 SUMMARY:Christmas Ships Parade
@@ -660,7 +713,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-08-19-00-christmas-ships-parade@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261208T190000
 DTEND;TZID=America/Los_Angeles:20261208T210000
 SUMMARY:Christmas Ships Parade
@@ -674,7 +727,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-08-19-00-in-the-christmas-mood-glenn-miller-orchestra@portland-
  holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261208T190000
 DTEND;TZID=America/Los_Angeles:20261208T210000
 SUMMARY:In the Christmas Mood: Glenn Miller Orchestra
@@ -687,7 +740,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-09-19-00-christmas-ships-parade@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261209T190000
 DTEND;TZID=America/Los_Angeles:20261209T210000
 SUMMARY:Christmas Ships Parade
@@ -701,7 +754,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-09-19-30-merry-achi-christmas-mariachi-sol-de-mexico@portland-h
  oliday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261209T193000
 DTEND;TZID=America/Los_Angeles:20261209T213000
 SUMMARY:Merry-achi Christmas: Mariachi Sol de Mexico
@@ -715,7 +768,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-10-allday-multnomah-village-hanukkah-celebration@portland-holid
  ay-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Multnomah Village Hanukkah Celebration
@@ -730,7 +783,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-11-allday-portland-gay-men-s-chorus-cool-yule-opens@portland-ho
  liday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Portland Gay Men's Chorus: Cool Yule opens
@@ -746,7 +799,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-11-17-00-crafty-wonderland-first-pick-party@portland-holiday-20
  26
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261211T170000
 DTEND;TZID=America/Los_Angeles:20261211T210000
 SUMMARY:Crafty Wonderland First Pick Party
@@ -760,7 +813,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-11-17-30-portland-holiday-brew-fest-21@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261211T173000
 DTEND;TZID=America/Los_Angeles:20261211T220000
 SUMMARY:Portland Holiday Brew Fest (21+)
@@ -772,7 +825,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-11-19-00-christmas-ships-parade@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261211T190000
 DTEND;TZID=America/Los_Angeles:20261211T213000
 SUMMARY:Christmas Ships Parade
@@ -786,7 +839,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-11-20-00-christmas-with-cece-winans@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261211T200000
 DTEND;TZID=America/Los_Angeles:20261211T220000
 SUMMARY:Christmas with CeCe Winans
@@ -799,7 +852,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-12-allday-scanfair-nordic-christmas-market@portland-holiday-202
  6
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:ScanFair Nordic Christmas Market
@@ -813,7 +866,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-12-10-00-crafty-wonderland-holiday-market@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261212T100000
 DTEND;TZID=America/Los_Angeles:20261212T170000
 SUMMARY:Crafty Wonderland Holiday Market
@@ -827,7 +880,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-12-12-00-portland-holiday-brew-fest-21@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261212T120000
 DTEND;TZID=America/Los_Angeles:20261212T220000
 SUMMARY:Portland Holiday Brew Fest (21+)
@@ -840,19 +893,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-12-14-00-holiday-pops-spectacular-oregon-symphony@portland-holi
  day-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261212T140000
 DTEND;TZID=America/Los_Angeles:20261212T160000
 SUMMARY:Holiday Pops Spectacular (Oregon Symphony)
 LOCATION:Arlene Schnitzer Concert Hall\, 1037 SW Broadway\, Portland\, OR
-DESCRIPTION:Other shows may be scheduled Dec 12-13.\nSource: https://www.al
- lclassical.org/?p=111029
-URL:https://www.allclassical.org/?p=111029
+DESCRIPTION:Also Dec 12 at 7:30 PM and Dec 13 at 2 PM.\nSource: https://www
+ .orsymphony.org/productions/2627/holiday-pops-spectacular
+URL:https://www.orsymphony.org/productions/2627/holiday-pops-spectacular
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-12-18-00-christmas-ships-parade@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261212T180000
 DTEND;TZID=America/Los_Angeles:20261212T200000
 SUMMARY:Christmas Ships Parade
@@ -865,7 +918,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-12-18-00-christmas-on-the-campground@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261212T180000
 DTEND;TZID=America/Los_Angeles:20261212T200000
 SUMMARY:Christmas on the Campground
@@ -876,23 +929,22 @@ URL:https://thechristmas.com/blogs/events/portland-christmas-lights
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-12-13-allday-holiday-pops-spectacular-oregon-symphony@portland-hol
- iday-2026
-DTSTAMP:20261105T020000Z
-DTSTART;VALUE=DATE:20261213
-DTEND;VALUE=DATE:20261214
+UID:2026-12-12-19-30-holiday-pops-spectacular-oregon-symphony@portland-holi
+ day-2026
+DTSTAMP:20261105T132250Z
+DTSTART;TZID=America/Los_Angeles:20261212T193000
+DTEND;TZID=America/Los_Angeles:20261212T213000
 SUMMARY:Holiday Pops Spectacular (Oregon Symphony)
 LOCATION:Arlene Schnitzer Concert Hall\, 1037 SW Broadway\, Portland\, OR
-DESCRIPTION:Time not listed in the sources\, so this is an all-day entry. C
- heck before going.\nSource: https://everout.com/portland/events/holiday-po
- ps-spectacular/e237916/
-URL:https://everout.com/portland/events/holiday-pops-spectacular/e237916/
+DESCRIPTION:Source: https://www.orsymphony.org/productions/2627/holiday-pop
+ s-spectacular
+URL:https://www.orsymphony.org/productions/2627/holiday-pops-spectacular
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-13-allday-scanfair-nordic-christmas-market@portland-holiday-202
  6
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:ScanFair Nordic Christmas Market
@@ -906,7 +958,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-13-10-00-crafty-wonderland-holiday-market@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261213T100000
 DTEND;TZID=America/Los_Angeles:20261213T170000
 SUMMARY:Crafty Wonderland Holiday Market
@@ -919,8 +971,21 @@ URL:https://www.oregoncc.org/attend/events/2026/12/crafty-wonderland-holida
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-12-13-14-00-holiday-pops-spectacular-oregon-symphony@portland-holi
+ day-2026
+DTSTAMP:20261105T132250Z
+DTSTART;TZID=America/Los_Angeles:20261213T140000
+DTEND;TZID=America/Los_Angeles:20261213T160000
+SUMMARY:Holiday Pops Spectacular (Oregon Symphony)
+LOCATION:Arlene Schnitzer Concert Hall\, 1037 SW Broadway\, Portland\, OR
+DESCRIPTION:Source: https://www.orsymphony.org/productions/2627/holiday-pop
+ s-spectacular
+URL:https://www.orsymphony.org/productions/2627/holiday-pops-spectacular
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-13-16-30-christmas-ships-parade@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261213T163000
 DTEND;TZID=America/Los_Angeles:20261213T210000
 SUMMARY:Christmas Ships Parade
@@ -933,7 +998,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-13-18-00-christmas-on-the-campground@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261213T180000
 DTEND;TZID=America/Los_Angeles:20261213T200000
 SUMMARY:Christmas on the Campground
@@ -946,7 +1011,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-15-18-00-peacock-lane-opens-pedestrian-only@portland-holiday-20
  26
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261215T180000
 DTEND;TZID=America/Los_Angeles:20261215T220000
 SUMMARY:Peacock Lane opens (pedestrian-only)
@@ -959,7 +1024,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-15-19-00-christmas-ships-parade@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261215T190000
 DTEND;TZID=America/Los_Angeles:20261215T210000
 SUMMARY:Christmas Ships Parade
@@ -973,7 +1038,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-15-20-00-jd-mcpherson-socks-rock-n-roll-christmas@portland-holi
  day-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261215T200000
 DTEND;TZID=America/Los_Angeles:20261215T220000
 SUMMARY:JD McPherson: SOCKS Rock N' Roll Christmas
@@ -986,7 +1051,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-16-18-00-peacock-lane-pedestrian-only@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261216T180000
 DTEND;TZID=America/Los_Angeles:20261216T220000
 SUMMARY:Peacock Lane (pedestrian-only)
@@ -998,7 +1063,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-16-19-00-christmas-ships-parade@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261216T190000
 DTEND;TZID=America/Los_Angeles:20261216T210000
 SUMMARY:Christmas Ships Parade
@@ -1011,7 +1076,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-17-19-00-christmas-ships-parade@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261217T190000
 DTEND;TZID=America/Los_Angeles:20261217T210000
 SUMMARY:Christmas Ships Parade
@@ -1023,21 +1088,21 @@ URL:https://www.christmasships.org/parade-schedule
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-12-17-19-30-holiday-brass@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+UID:2026-12-17-19-30-holiday-brass-oregon-symphony@portland-holiday-2026
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261217T193000
 DTEND;TZID=America/Los_Angeles:20261217T213000
-SUMMARY:Holiday Brass
-LOCATION:Arlene Schnitzer Concert Hall\, 1037 SW Broadway\, Portland\, OR
-DESCRIPTION:EverOut lists this and the Jinkx & DeLa show at the same hall a
- nd time\, so confirm before buying.\nSource: https://everout.com/portland/
- events/holiday-brass/e237913/
-URL:https://everout.com/portland/events/holiday-brass/e237913/
+SUMMARY:Holiday Brass (Oregon Symphony)
+LOCATION:Rose Auditorium\, South Salem High School\, Salem\, OR
+DESCRIPTION:In Salem\, per the Oregon Symphony. EverOut listed the Schnitze
+ r in Portland.\nSource: https://orsymphony.org/productions/2627/holiday-br
+ ass
+URL:https://orsymphony.org/productions/2627/holiday-brass
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-17-19-30-the-jinkx-dela-holiday-show@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261217T193000
 DTEND;TZID=America/Los_Angeles:20261217T213000
 SUMMARY:The Jinkx & DeLa Holiday Show
@@ -1050,7 +1115,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-18-16-00-portland-night-market-dec-18-19@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261218T160000
 DTEND;TZID=America/Los_Angeles:20261218T230000
 SUMMARY:Portland Night Market (Dec 18-19)
@@ -1062,7 +1127,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-18-19-00-christmas-ships-parade@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261218T190000
 DTEND;TZID=America/Los_Angeles:20261218T210000
 SUMMARY:Christmas Ships Parade
@@ -1076,7 +1141,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-19-allday-portland-saturday-market-final-day-of-2026@portland-h
  oliday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Portland Saturday Market final day of 2026
@@ -1088,8 +1153,21 @@ URL:https://www.stayportland.com/guide/portland-fall-winter-holidays
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-12-19-13-30-35th-annual-tuba-christmas-concert@portland-holiday-20
+ 26
+DTSTAMP:20261105T132250Z
+DTSTART;TZID=America/Los_Angeles:20261219T133000
+DTEND;TZID=America/Los_Angeles:20261219T150000
+SUMMARY:35th Annual Tuba Christmas Concert
+LOCATION:Pioneer Courthouse Square\, 701 SW 6th Ave\, Portland\, OR 97204
+DESCRIPTION:Free.\nSource: https://www.thesquarepdx.org/event/35th-annual-t
+ uba-christmas-concert/
+URL:https://www.thesquarepdx.org/event/35th-annual-tuba-christmas-concert/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-19-16-30-christmas-ships-parade@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261219T163000
 DTEND;TZID=America/Los_Angeles:20261219T200000
 SUMMARY:Christmas Ships Parade
@@ -1101,8 +1179,21 @@ URL:https://www.christmasships.org/parade-schedule
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-12-19-19-30-home-alone-in-concert-oregon-symphony@portland-holiday
+ -2026
+DTSTAMP:20261105T132250Z
+DTSTART;TZID=America/Los_Angeles:20261219T193000
+DTEND;TZID=America/Los_Angeles:20261219T213000
+SUMMARY:Home Alone in Concert (Oregon Symphony)
+LOCATION:Arlene Schnitzer Concert Hall\, 1037 SW Broadway\, Portland\, OR
+DESCRIPTION:Film with the score played live. Also Dec 20 at 2 PM.\nSource: 
+ https://www.orsymphony.org/productions/2627/home-alone-in-concert
+URL:https://www.orsymphony.org/productions/2627/home-alone-in-concert
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-19-19-30-snow-bar-chorale@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261219T193000
 DTEND;TZID=America/Los_Angeles:20261219T213000
 SUMMARY:Snow Bar Chorale
@@ -1113,8 +1204,21 @@ URL:https://everout.com/portland/events/snow-bar-chorale/e250926/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-12-20-14-00-home-alone-in-concert-oregon-symphony@portland-holiday
+ -2026
+DTSTAMP:20261105T132250Z
+DTSTART;TZID=America/Los_Angeles:20261220T140000
+DTEND;TZID=America/Los_Angeles:20261220T160000
+SUMMARY:Home Alone in Concert (Oregon Symphony)
+LOCATION:Arlene Schnitzer Concert Hall\, 1037 SW Broadway\, Portland\, OR
+DESCRIPTION:Film with the score played live.\nSource: https://www.orsymphon
+ y.org/productions/2627/home-alone-in-concert
+URL:https://www.orsymphony.org/productions/2627/home-alone-in-concert
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-20-17-00-christmas-ships-parade@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261220T170000
 DTEND;TZID=America/Los_Angeles:20261220T190000
 SUMMARY:Christmas Ships Parade
@@ -1127,7 +1231,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-30-19-30-a-magical-cirque-christmas@portland-holiday-2026
-DTSTAMP:20261105T020000Z
+DTSTAMP:20261105T132250Z
 DTSTART;TZID=America/Los_Angeles:20261230T193000
 DTEND;TZID=America/Los_Angeles:20261230T213000
 SUMMARY:A Magical Cirque Christmas
@@ -1135,6 +1239,34 @@ LOCATION:Keller Auditorium\, 222 SW Clay St\, Portland\, OR 97201
 DESCRIPTION:Source: https://everout.com/portland/events/a-magical-cirque-ch
  ristmas/e249545/
 URL:https://everout.com/portland/events/a-magical-cirque-christmas/e249545/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-30-19-30-new-year-s-eve-with-beethoven-s-ninth-oregon-symphony@
+ portland-holiday-2026
+DTSTAMP:20261105T132250Z
+DTSTART;TZID=America/Los_Angeles:20261230T193000
+DTEND;TZID=America/Los_Angeles:20261230T213000
+SUMMARY:New Year's Eve with Beethoven's Ninth (Oregon Symphony)
+LOCATION:Arlene Schnitzer Concert Hall\, 1037 SW Broadway\, Portland\, OR
+DESCRIPTION:Also Dec 31 at 7:30 PM.\nSource: https://www.orsymphony.org/pro
+ ductions/2627/new-years-eve-with-beethovens-ninth
+URL:https://www.orsymphony.org/productions/2627/new-years-eve-with-beethove
+ ns-ninth
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-31-19-30-new-year-s-eve-with-beethoven-s-ninth-oregon-symphony@
+ portland-holiday-2026
+DTSTAMP:20261105T132250Z
+DTSTART;TZID=America/Los_Angeles:20261231T193000
+DTEND;TZID=America/Los_Angeles:20261231T213000
+SUMMARY:New Year's Eve with Beethoven's Ninth (Oregon Symphony)
+LOCATION:Arlene Schnitzer Concert Hall\, 1037 SW Broadway\, Portland\, OR
+DESCRIPTION:Source: https://www.orsymphony.org/productions/2627/new-years-e
+ ve-with-beethovens-ninth
+URL:https://www.orsymphony.org/productions/2627/new-years-eve-with-beethove
+ ns-ninth
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
