@@ -3,7 +3,7 @@ import re
 from datetime import date, datetime, timedelta
 
 OUT = "Portland-Holiday-Events-2026.ics"
-DTSTAMP = "20261105T132250Z"
+DTSTAMP = "20261106T132053Z"
 
 MODA = "Moda Center, 1 N Center Ct St, Portland, OR 97227"
 ALADDIN = "Aladdin Theater, 3017 SE Milwaukie Ave, Portland, OR 97202"
@@ -108,7 +108,7 @@ E = [
     ("2026-12-06", "Sun", "16:00", None, "Gospel Christmas (Oregon Symphony)", SCHNITZ, "", S_AC_GOSPEL),
     ("2026-12-06", "Sun", "20:00", None, "Choir! Choir! Choir! Un-SILENT NIGHT sing-along", REVHALL, "", eo("choir-choir-choir-un-silent-night-an-epic-holiday-sing-along/e239560")),
     ("2026-12-08", "Tue", "19:00", None, "In the Christmas Mood: Glenn Miller Orchestra", NEWMARK, "", eo("in-the-christmas-mood-with-the-glenn-miller-orchestra/e234172")),
-    ("2026-12-09", "Wed", "19:30", None, "Merry-achi Christmas: Mariachi Sol de Mexico", SCHNITZ, "", eo("merry-achi-christmas-with-mariachi-sol-de-mexico-r-de-jose-hernandez/e237817")),
+    ("2026-12-09", "Wed", "19:30", None, "Merry-achi Christmas: Mariachi Sol de Mexico", SCHNITZ, "Date and time from EverOut. Kids Out and About lists Dec 6, so confirm with the venue.", eo("merry-achi-christmas-with-mariachi-sol-de-mexico-r-de-jose-hernandez/e237817")),
     ("2026-12-10", "Thu", None, None, "Multnomah Village Hanukkah Celebration", "Multnomah Village, Portland, OR", NO_TIME, S_KOA),
     ("2026-12-11", "Fri", "17:00", "21:00", "Crafty Wonderland First Pick Party", OCC, "Timed tickets. Venue is cashless.", S_OCC),
     ("2026-12-11", "Fri", "17:30", "22:00", "Portland Holiday Brew Fest (21+)", SQUARE, "Taps close 9:30 PM.", S_STAY),
@@ -138,6 +138,29 @@ E = [
     ("2026-12-30", "Wed", "19:30", None, "New Year's Eve with Beethoven's Ninth (Oregon Symphony)", SCHNITZ, "Also Dec 31 at 7:30 PM.", S_ORS_NINTH),
     ("2026-12-31", "Thu", "19:30", None, "New Year's Eve with Beethoven's Ninth (Oregon Symphony)", SCHNITZ, "", S_ORS_NINTH),
     ("2026-12-30", "Wed", "19:30", None, "A Magical Cirque Christmas", KELLER, "", eo("a-magical-cirque-christmas/e249545")),
+    ("2026-11-25", "Wed", None, None, "The Silver Belles opens (Broadway Rose)", "Broadway Rose Theatre Company", "Listed Nov 25-Dec 20. Showtimes not listed. " + NO_TIME, S_KOA),
+    ("2026-11-27", "Fri", None, None, "Rotary Tree Lighting", "Esther Short Park & Vancouver Waterfront, Vancouver, WA", NO_TIME, S_KOA),
+    ("2026-11-27", "Fri", None, None, "62nd Annual Tree Lighting Festival", "Millennium Plaza Park", NO_TIME, S_KOA),
+    ("2026-11-27", "Fri", None, None, "Portland European Bazaar", BAZAAR, NO_TIME, S_KOA),
+    ("2026-11-28", "Sat", None, None, "Portland European Bazaar", BAZAAR, NO_TIME, S_KOA),
+    ("2026-11-28", "Sat", None, None, "Cinnamon Bear Breakfast Cruise begins", "Portland Spirit, Salmon Street Springs Dock, Portland, OR", "Listed Nov 28-Dec 27. Sailing dates not listed. " + NO_TIME, S_KOA),
+    ("2026-11-29", "Sun", None, None, "Winter Village at Orenco Station opens", "Jerry Willey Plaza, Orenco Station", "Listed through Jan 10, 2027. " + NO_TIME, S_KOA),
+    ("2026-12-02", "Wed", None, None, "Bethany Village Tree Lighting & Holiday Market", "4720 NW Bethany Blvd, Portland, OR", NO_TIME, S_KOA),
+    ("2026-12-02", "Wed", None, None, "Tomaseen Foley's A Celtic Christmas", "Patricia Reser Center for the Arts, 12625 SW Crescent St, Beaverton, OR 97005", NO_TIME, S_KOA),
+    ("2026-12-03", "Thu", None, None, "Wilsonville Community Tree Lighting", "Town Center Park, Wilsonville, OR", NO_TIME, S_KOA),
+    ("2026-12-03", "Thu", None, None, "Washougal Lighted Christmas Parade & Tree Lighting", "Reflection Plaza, Washougal, WA", NO_TIME, S_KOA),
+    ("2026-12-05", "Sat", None, None, "Gladstone Holiday Market & Tree Lighting", "Gladstone Community Center, Gladstone, OR", NO_TIME, S_KOA),
+    ("2026-12-05", "Sat", None, None, "West Linn Holiday Parade", "Historic Willamette Main Street area, West Linn, OR", NO_TIME, S_KOA),
+    ("2026-12-05", "Sat", None, None, "Troutdale Windy Wonderland", "Mayor's Square City Park, Troutdale, OR", NO_TIME, S_KOA),
+    ("2026-12-06", "Sun", None, None, "Troutdale Windy Wonderland", "Mayor's Square City Park, Troutdale, OR", NO_TIME, S_KOA),
+    ("2026-12-05", "Sat", None, None, "Santa Sing-Along at Broadway Rose", "Broadway Rose Theatre Company", NO_TIME, S_KOA),
+    ("2026-12-05", "Sat", None, None, "Candlelight Tour at Newell Pioneer Village", "Newell Pioneer Village", NO_TIME, S_KOA),
+    ("2026-12-06", "Sun", None, None, "Happy Valley Tree Lighting Ceremony", "Happy Valley City Hall, Happy Valley, OR", NO_TIME, S_KOA),
+    ("2026-12-10", "Thu", None, None, "Handel's Messiah opens (Portland Baroque Orchestra)", "Portland, OR", "Listed Dec 10-13. Concert venue and showtimes not listed. " + NO_TIME, S_KOA),
+    ("2026-12-11", "Fri", None, None, "Kalani Pe'a: Hawaiian Christmas", "Patricia Reser Center for the Arts, 12625 SW Crescent St, Beaverton, OR 97005", NO_TIME, S_KOA),
+    ("2026-12-11", "Fri", None, None, "Yuletide Tea at Newell Pioneer Village", "Newell Pioneer Village", "Also Dec 12. " + NO_TIME, S_KOA),
+    ("2026-12-12", "Sat", None, None, "Angels on Wheels Toy Run", PIR, "NW Corvette Association. " + NO_TIME, S_KOA),
+    ("2026-12-12", "Sat", None, None, "A Nutcracker Tea opens (Northwest Dance Theatre)", "Portland Community College Performing Arts Center", "Listed Dec 12-20. Showtimes not listed. " + NO_TIME, S_KOA),
 ]
 
 SHIPS = [
