@@ -3,7 +3,7 @@ import re
 from datetime import date, datetime, timedelta
 
 OUT = "Portland-Holiday-Events-2026.ics"
-DTSTAMP = "20261113T141550Z"
+DTSTAMP = "20261118T132411Z"
 
 MODA = "Moda Center, 1 N Center Ct St, Portland, OR 97227"
 ALADDIN = "Aladdin Theater, 3017 SE Milwaukie Ave, Portland, OR 97202"
@@ -51,6 +51,7 @@ S_TUBA = "https://www.thesquarepdx.org/event/35th-annual-tuba-christmas-concert/
 S_PITTOCK = "https://pittockmansion.org/exhibits/"
 S_OBT_TEMPLE = "https://www.oregonbuddhisttemple.com/craft-fair"
 S_FOODGIFT = "https://pdxparent.com/pdx-holiday-fun/"
+S_SANTACON = "https://allevents.in/portland/portland-santacon-2026-formerly-stumptown-santacon/200029584973401"
 S_FOODGIFT2 = "https://www.thecraftmap.com/fair/37th-annual-holiday-food-gift-festival-nov-13th-15th-hillsboro-or"
 
 
@@ -138,6 +139,7 @@ E = [
     ("2026-12-19", "Sat", "19:30", None, "Snow Bar Chorale", REVHALL, "", eo("snow-bar-chorale/e250926")),
     ("2026-12-19", "Sat", None, None, "Portland Saturday Market final day of 2026", "Portland Saturday Market, 2 SW Naito Pkwy, Portland, OR", NO_TIME, S_STAY),
     ("2026-12-19", "Sat", "13:30", "15:00", "35th Annual Tuba Christmas Concert", SQUARE, "Free.", S_TUBA),
+    ("2026-12-19", "Sat", "16:00", "23:00", "Portland SantaCon (formerly Stumptown SantaCon)", "Ankeny Alley, Portland, OR", "Wristband pickup at the Ankeny Alley street closure 2-10 PM. Wristbands get entry to participating bars 4-11 PM. From an event listing; the organizer site (portlandsantacon.com) could not be checked.", S_SANTACON),
     ("2026-12-19", "Sat", "19:30", None, "Home Alone in Concert (Oregon Symphony)", SCHNITZ, "Film with the score played live. Also Dec 20 at 2 PM.", S_ORS_HOME),
     ("2026-12-20", "Sun", "14:00", None, "Home Alone in Concert (Oregon Symphony)", SCHNITZ, "Film with the score played live.", S_ORS_HOME),
     ("2026-12-30", "Wed", "19:30", None, "New Year's Eve with Beethoven's Ninth (Oregon Symphony)", SCHNITZ, "Also Dec 31 at 7:30 PM.", S_ORS_NINTH),
