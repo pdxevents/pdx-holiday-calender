@@ -3,7 +3,7 @@ import re
 from datetime import date, datetime, timedelta
 
 OUT = "Portland-Holiday-Events-2026.ics"
-DTSTAMP = "20261118T132411Z"
+DTSTAMP = "20261120T132303Z"
 
 MODA = "Moda Center, 1 N Center Ct St, Portland, OR 97227"
 ALADDIN = "Aladdin Theater, 3017 SE Milwaukie Ave, Portland, OR 97202"
@@ -26,6 +26,7 @@ S_STAY = "https://www.stayportland.com/guide/portland-fall-winter-holidays"
 S_STAY2 = "https://www.stayportland.com/guide/portland-events-festivals"
 S_WW = "https://www.wweek.com/culture/2026/11/03/get-busy-what-to-do-in-portland-nov-410-2026/"
 S_WW2 = "https://www.wweek.com/culture/2026/11/10/what-to-do-in-portland-nov-11-17-2026/"
+S_WW3 = "https://www.wweek.com/culture/2026/11/17/get-busy-what-to-do-in-portland-nov-1824-2026/"
 S_ZOO_SENSORY = "https://www.oregonzoo.org/sensory-night"
 S_KOA = "https://portland.kidsoutandabout.com/content/101-ideas-holiday-family-fun-portland"
 S_SHIPS = "https://www.christmasships.org/parade-schedule"
@@ -78,6 +79,7 @@ E = [
     ("2026-11-15", "Sun", None, None, "ZooLights Member Preview Night", ZOO, "Oregon Zoo members. " + NO_TIME, S_ZOO_LIGHTS),
     ("2026-11-16", "Mon", None, None, "Pittock Mansion: Home for the Holidays opens", "Pittock Mansion, 3229 NW Pittock Dr, Portland, OR 97210", "Holidays from Around the World, through Jan 10, 2027. Closed Thanksgiving, Christmas Day and New Year's Day. " + NO_TIME, S_PITTOCK),
     ("2026-11-16", "Mon", "16:30", "20:30", "ZooLights Sensory Friendly Night", ZOO, "$13-$22. Tickets through the zoo shop.", S_ZOO_SENSORY),
+    ("2026-11-19", "Thu", "18:45", None, "Die Hard: The Musical Parody (Funhouse Lounge)", "The Foster Theater, 5444 SE Foster Rd, Portland, OR", "Holiday parody show. 6:45 PM Thu-Sat and 2 PM Sun through Nov 29. $45-$55, all ages. The production moves back to Funhouse Lounge in December.", S_WW3),
     ("2026-11-20", "Fri", "10:00", "18:00", "Plucky Maidens Holiday Fest", "Oaks Park Dance Pavilion, 7805 SE Oaks Park Way, Portland, OR 97202", "Free.", eo("plucky-maidens-holiday-fest/e262024")),
     ("2026-11-21", "Sat", "10:00", "18:00", "Plucky Maidens Holiday Fest", "Oaks Park Dance Pavilion, 7805 SE Oaks Park Way, Portland, OR 97202", "Free.", eo("plucky-maidens-holiday-fest/e262024")),
     ("2026-11-20", "Fri", "16:30", "20:30", "ZooLights opens", ZOO, "Runs through Jan 3, 2027, from 4:30 PM. Closed Nov 24-26 and Dec 25. Closing time varies by night. Jan 1-2 are 21+.", S_ZOO_LIGHTS),
