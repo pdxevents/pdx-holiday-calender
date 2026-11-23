@@ -3,7 +3,7 @@ import re
 from datetime import date, datetime, timedelta
 
 OUT = "Portland-Holiday-Events-2026.ics"
-DTSTAMP = "20261120T132303Z"
+DTSTAMP = "20261123T132512Z"
 
 MODA = "Moda Center, 1 N Center Ct St, Portland, OR 97227"
 ALADDIN = "Aladdin Theater, 3017 SE Milwaukie Ave, Portland, OR 97202"
@@ -85,7 +85,7 @@ E = [
     ("2026-11-20", "Fri", "16:30", "20:30", "ZooLights opens", ZOO, "Runs through Jan 3, 2027, from 4:30 PM. Closed Nov 24-26 and Dec 25. Closing time varies by night. Jan 1-2 are 21+.", S_ZOO_LIGHTS),
     ("2026-11-20", "Fri", "17:00", "21:00", "Silverton Christmas Market opens", "Oregon Garden, 879 W Main St, Silverton, OR 97381", "Most nights through Dec 31, 5-9 PM. Popular nights sell out, so check open dates when booking.", eo("silverton-christmas-market/e261641")),
     ("2026-11-20", "Fri", None, None, "'Twas the Night Before Nutcracker opens (21+)", "Can Can's Paris Theatre, 6 SW 3rd Ave, Portland, OR 97204", "Runs on select dates through Jan 3, 2027. " + NO_TIME, eo("can-cans-twas-the-night-before-nutcracker/e261638")),
-    ("2026-11-27", "Fri", "16:00", "17:00", "Christmas Ships: Vancouver Santa Escort", "Grant Street Pier, Vancouver, WA", "Combined fleet to Vancouver Waterfront. Schedule can change for weather or safety.", S_SHIPS),
+    ("2026-11-27", "Fri", "17:00", "18:00", "Christmas Ships: Vancouver Santa Escort", "Grant Street Pier, Vancouver, WA", "Combined fleet to Vancouver Waterfront. Schedule can change for weather or safety.", S_SHIPS),
     ("2026-11-27", "Fri", "16:30", "23:00", "Winter Wonderland opens", PIR, "Drive-through nightly through Dec 31. Mon-Thu 5-10 PM, Fri-Sun 4:30-11 PM, Dec 18-25 4:30-11 PM. No drive-through Nov 29-Dec 1.", S_STAY),
     ("2026-11-27", "Fri", "17:00", "21:30", "Grotto Christmas Festival of Lights opens", "The Grotto, 8840 NE Skidmore St, Portland, OR 97220", "Nightly 5-9:30 PM through Dec 30, closed Dec 25. Grounds close at 10 PM. Entrance at NE 85th and Sandy Blvd.", S_GROTTO),
     ("2026-11-27", "Fri", "17:30", "18:45", "42nd Annual Tree Lighting Ceremony", SQUARE, "Community sing-along with Santa.", S_STAY),
@@ -173,7 +173,7 @@ E = [
 ]
 
 SHIPS = [
-    ("2026-12-03", "Thu", "19:00", "21:00", GLEASON, "Combined fleet: Gleason Boat Ramp to Vancouver Waterfront."),
+    ("2026-12-03", "Thu", "19:00", "21:00", GLEASON, "Combined fleet: Gleason Boat Ramp to Vancouver Waterfront/Hayden Bay."),
     ("2026-12-04", "Fri", "19:00", "21:00", GLEASON, "Combined fleet: Gleason Boat Ramp to North Portland Harbor."),
     ("2026-12-05", "Sat", "18:00", "20:30", "Port of Camas-Washougal, WA", "Combined fleet: Camas, Washougal, Steamboat Landing Park."),
     ("2026-12-07", "Mon", "19:00", "21:00", RIVERPLACE, "Willamette: RiverPlace to Johns Landing/Fremont Bridge. Columbia: Gleason to Washington Shores/Wintler Park."),
